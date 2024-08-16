@@ -274,7 +274,7 @@ xx_4.BorderSizePixel = 0
 xx_4.Position = UDim2.new(0.0432099849, 0, 0.444167644, 0)
 xx_4.Size = UDim2.new(0, 148, 0, 36)
 xx_4.Font = Enum.Font.Gotham
-xx_4.Text = "- Updated to V1.2"
+xx_4.Text = "- Updated to X"
 xx_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 xx_4.TextSize = 14.000
 xx_4.TextWrapped = true
@@ -289,7 +289,7 @@ xx_5.BorderSizePixel = 0
 xx_5.Position = UDim2.new(0.0372576043, 0, 0.554744601, 0)
 xx_5.Size = UDim2.new(0, 168, 0, 36)
 xx_5.Font = Enum.Font.Gotham
-xx_5.Text = "-  Removed Dex Explorer"
+xx_5.Text = ""
 xx_5.TextColor3 = Color3.fromRGB(255, 255, 255)
 xx_5.TextSize = 14.000
 xx_5.TextWrapped = true
@@ -833,7 +833,7 @@ local function PWGNM_fake_script() -- ClearBTN.LocalScript
 		Bindable.OnInvoke = Callback
 	
 		game.StarterGui:SetCore("SendNotification", {
-			Title = "Cubix | Android";
+			Title = "Void Hub x";
 			Text = "Cleared the script.";
 			Duration = "10";
 			Button1 = "Close Notification";
@@ -859,7 +859,7 @@ local function KLUYQN_fake_script() -- CopyBTN.LocalScript
 		Bindable.OnInvoke = Callback
 	
 		game.StarterGui:SetCore("SendNotification", {
-			Title = "Cubix | Android";
+			Title = "Void Hub X";
 			Text = "Copied the script.";
 			Duration = "10";
 			Button1 = "Close Notification";
