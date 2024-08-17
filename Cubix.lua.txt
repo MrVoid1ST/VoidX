@@ -887,7 +887,7 @@ local function HCRL_fake_script() -- PasteBTN.LocalScript
 		Bindable.OnInvoke = Callback
 	
 		game.StarterGui:SetCore("SendNotification", {
-			Title = "Cubix | Android";
+			Title = "Void X";
 			Text = "Pasted the script.";
 			Duration = "10";
 			Button1 = "Close Notification";
@@ -917,7 +917,7 @@ local function ZTADS_fake_script() -- ExecBTN.LocalScript
 	Bindable.OnInvoke = Callback
 	
 	game.StarterGui:SetCore("SendNotification", {
-		Title = "Cubix | Android";
+		Title = "Void X ";
 		Text = "Executed the script.";
 		Duration = "10";
 		Button1 = "Close Notification";
@@ -977,7 +977,7 @@ local function TMHVQCE_fake_script() -- FPSBTN.LocalScript
 		Bindable.OnInvoke = Callback
 	
 		game.StarterGui:SetCore("SendNotification", {
-			Title = "Cubix | Android";
+			Title = "Void X | Test Fr";
 			Text = "FPS is now 960!.";
 			Duration = "10";
 			Button1 = "Close Notification";
