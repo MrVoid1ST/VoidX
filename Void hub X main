@@ -96,7 +96,7 @@ Open.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Open.BorderSizePixel = 0
 Open.Position = UDim2.new(0.901421309, 0, 0.0284554306, 0)
 Open.Size = UDim2.new(0, 46, 0, 46)
-Open.Image = "rbxassetid://16163653051"
+Open.Image = "rbxassetid://118007190839921"
 Open.Draggable = true
 Open.Active = true
 Open.ScaleType = Enum.ScaleType.Fit
@@ -156,7 +156,7 @@ HomeIconBTN.BorderColor3 = Color3.fromRGB(0, 0, 0)
 HomeIconBTN.BorderSizePixel = 0
 HomeIconBTN.Position = UDim2.new(0.0882352963, 0, 0.121212125, 0)
 HomeIconBTN.Size = UDim2.new(0, 27, 0, 25)
-HomeIconBTN.Image = "rbxassetid://7733960981"
+HomeIconBTN.Image = "rbxassetid://118007190839921"
 HomeIconBTN.ScaleType = Enum.ScaleType.Fit
 
 HomeTab.Name = "Home-Tab"
