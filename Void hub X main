@@ -156,7 +156,7 @@ HomeIconBTN.BorderColor3 = Color3.fromRGB(0, 0, 0)
 HomeIconBTN.BorderSizePixel = 0
 HomeIconBTN.Position = UDim2.new(0.0882352963, 0, 0.121212125, 0)
 HomeIconBTN.Size = UDim2.new(0, 27, 0, 25)
-HomeIconBTN.Image = "rbxassetid://16163653051"
+HomeIconBTN.Image = "rbxassetid://7733960981"
 HomeIconBTN.ScaleType = Enum.ScaleType.Fit
 
 HomeTab.Name = "Home-Tab"
