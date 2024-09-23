@@ -81,6 +81,8 @@ local ZekromHubX = Instance.new("ImageLabel")
 local UICorner_27 = Instance.new("UICorner")
 local ExecuteZekroV2 = Instance.new("TextButton")
 local UICorner_28 = Instance.new("UICorner")
+local UICorner_29 = Instance.new("UICorner")
+local UICorner_30 = Instance.new("UICorner")
 
 -- Properties:
 
@@ -620,6 +622,60 @@ FPSBTN.TextSize = 14.000
 UICorner_20.CornerRadius = UDim.new(0, 6)
 UICorner_20.Parent = FPSBTN
 
+-- UICorner tanımlamaları
+local UICorner_18 = Instance.new("UICorner")
+local UICorner_19 = Instance.new("UICorner")
+
+-- FPS-BTN'e benzer ilk buton (sağda)
+local NewBTN1BG = Instance.new("Frame")
+NewBTN1BG.Name = "NewBTN1-BG"
+NewBTN1BG.Parent = SettingsTab
+NewBTN1BG.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+NewBTN1BG.BorderColor3 = Color3.fromRGB(0, 0, 0)
+NewBTN1BG.BorderSizePixel = 0
+NewBTN1BG.Position = UDim2.new(0.4, 0, 0.064, 0) -- Sağ tarafa konum
+NewBTN1BG.Size = UDim2.new(0, 212, 0, 43)
+
+UICorner_29.Parent = NewBTN1BG
+
+local NewBTN1 = Instance.new("TextButton")
+NewBTN1.Name = "NewBTN1"
+NewBTN1.Parent = NewBTN1BG
+NewBTN1.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+NewBTN1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+NewBTN1.BorderSizePixel = 0
+NewBTN1.Position = UDim2.new(0.560386896, 0, 0.25, 0)
+NewBTN1.Size = UDim2.new(0, 85, 0, 27)
+NewBTN1.Font = Enum.Font.GothamMedium
+NewBTN1.Text = "Test 1"
+NewBTN1.TextColor3 = Color3.fromRGB(255, 255, 255)
+NewBTN1.TextSize = 14.000
+
+local NewBTN2BG = Instance.new("Frame")
+NewBTN2BG.Name = "NewBTN2-BG"
+NewBTN2BG.Parent = SettingsTab
+NewBTN2BG.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+NewBTN2BG.BorderColor3 = Color3.fromRGB(0, 0, 0)
+NewBTN2BG.BorderSizePixel = 0
+NewBTN2BG.Position = UDim2.new(0.02, 0, 0.3, 0) -- Alt tarafa konum
+NewBTN2BG.Size = UDim2.new(0, 212, 0, 43)
+
+UICorner_30.Parent = NewBTN2BG
+
+local NewBTN2 = Instance.new("TextButton")
+NewBTN2.Name = "NewBTN2"
+NewBTN2.Parent = NewBTN2BG
+NewBTN2.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+NewBTN2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+NewBTN2.BorderSizePixel = 0
+NewBTN2.Position = UDim2.new(0.560386896, 0, 0.25, 0)
+NewBTN2.Size = UDim2.new(0, 85, 0, 27)
+NewBTN2.Font = Enum.Font.GothamMedium
+NewBTN2.Text = "Test 2"
+NewBTN2.TextColor3 = Color3.fromRGB(255, 255, 255)
+NewBTN2.TextSize = 14.000
+
+
 ScriptHubDisplay.Name = "ScriptHub-Display"
 ScriptHubDisplay.Parent = Tabs
 ScriptHubDisplay.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
@@ -760,6 +816,14 @@ ExecuteZekroV2.TextSize = 14.000
 UICorner_28.Parent = ExecuteZekroV2
 
 -- Scripts:
+
+NewBTN1.MouseButton1Click:Connect(function()
+    print("Executed test 1")
+end)
+
+NewBTN2.MouseButton1Click:Connect(function()
+    print("Executed test 2")
+end)
 
 local function NYXY_fake_script() -- Open.LocalScript 
 	local script = Instance.new('LocalScript', Open)
