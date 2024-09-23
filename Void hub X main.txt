@@ -643,7 +643,7 @@ NewBTN1.BorderSizePixel = 0
 NewBTN1.Position = UDim2.new(0.560386896, 0, 0.25, 0)
 NewBTN1.Size = UDim2.new(0, 85, 0, 27)
 NewBTN1.Font = Enum.Font.GothamMedium
-NewBTN1.Text = "TEST 1"
+NewBTN1.Text = "Execute"
 NewBTN1.TextColor3 = Color3.fromRGB(255, 255, 255)
 NewBTN1.TextSize = 14.000
 
@@ -668,7 +668,7 @@ NewBTN2.BorderSizePixel = 0
 NewBTN2.Position = UDim2.new(0.560386896, 0, 0.25, 0)
 NewBTN2.Size = UDim2.new(0, 85, 0, 27)
 NewBTN2.Font = Enum.Font.GothamMedium
-NewBTN2.Text = "Test 2"
+NewBTN2.Text = "Execute"
 NewBTN2.TextColor3 = Color3.fromRGB(255, 255, 255)
 NewBTN2.TextSize = 14.000
 
